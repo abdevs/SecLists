@@ -5,7 +5,20 @@
 .cvs
 .cvsignore
 .forward
+.git
+.git-rewrite
 .git/HEAD
+.git/config
+.git/index
+.git/logs/
+.git_release
+.gitattributes
+.gitconfig
+.gitignore
+.gitk
+.gitkeep
+.gitmodules
+.gitreview
 .history
 .hta
 .htaccess
@@ -22,6 +35,7 @@
 .subversion
 .svn
 .svn/entries
+.svnignore
 .swf
 .web
 .well-known/acme-challenge
@@ -50,6 +64,7 @@
 .well-known/http-opportunistic
 .well-known/idp-proxy
 .well-known/jmap
+.well-known/jwks.json
 .well-known/keybase.txt
 .well-known/looking-glass
 .well-known/matrix
@@ -61,6 +76,7 @@
 .well-known/nodeinfo
 .well-known/oauth-authorization-server
 .well-known/openid-configuration
+.well-known/openid-federation
 .well-known/openorg
 .well-known/openpgpkey
 .well-known/pki-validation
@@ -304,6 +320,7 @@ ServerAdministrator
 Services
 Servlet
 Servlets
+Shibboleth.sso/Metadata
 SiteMap
 SiteScope
 SiteServer
@@ -369,6 +386,10 @@ _dummy
 _files
 _flash
 _fpclass
+_framework/blazor.boot.json
+_framework/blazor.webassembly.js
+_framework/wasm/dotnet.wasm
+_framework/_bin/WebAssembly.Bindings.dll
 _images
 _img
 _inc
@@ -1215,6 +1236,7 @@ contract
 contracts
 contrib
 contribute
+contribute.json
 contributor
 control
 controller
@@ -1738,6 +1760,7 @@ fdcp
 feature
 featured
 features
+federation/clients
 fedora
 feed
 feedback
@@ -2090,6 +2113,7 @@ httpuser
 hu
 human
 humans
+humans.txt
 humor
 hyper
 i
@@ -2330,6 +2354,7 @@ jump
 juniper
 junk
 jvm
+jwks.json
 k
 katalog
 kb
@@ -2827,6 +2852,9 @@ nz
 o
 oa_servlets
 oauth
+oauth/authorize
+oauth/token
+oauth/token/info
 obdc
 obj
 object
@@ -2958,6 +2986,7 @@ panelc
 paper
 papers
 parse
+par
 part
 partenaires
 partner
@@ -3446,6 +3475,8 @@ removals
 remove
 removed
 render
+render?url=https://www.google.com
+render/https://www.google.com
 rendered
 reorder
 rep
@@ -3627,6 +3658,7 @@ secureform
 secureprocess
 securimage
 security
+security.txt
 seed
 select
 selectaddress
@@ -4127,6 +4159,9 @@ today
 todel
 todo
 toggle
+token
+token/introspect
+token/revoke
 tomcat
 tomcat-docs
 tool
@@ -4442,6 +4477,7 @@ weblogs
 webmail
 webmaster
 webmasters
+webpack.manifest.json
 webpages
 webplus
 webresource
